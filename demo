@@ -1,0 +1,347 @@
+.hero{
+    height: 70vh;
+    .container{
+        .hero__left{
+            width:40%;
+            .hero__cont{      
+                inset:auto 1% auto 10%;
+            }
+        }
+
+        .hero__right{
+            width:60%;
+            .hero__image{
+                display:flex;
+                align-items: center;
+                position: static;
+                height:100%;
+                width:100%;
+                img{
+                    height:75%;
+                }
+            }
+        }
+    }
+}
+
+
+.team{
+     height:240vh;
+    .container--inner{
+        padding:0 2%;
+        .team__heading{
+            padding-top:4%;
+            .team__title--primary{
+                margin-top:0 ;
+            }
+        }
+        .team__text--primary{
+            margin-bottom:4%;  
+        }
+        .team__teachers{
+            display:grid;
+            grid: auto auto / auto auto;
+            height:35%;
+            gap:4% 1%;
+            width:80%;
+            margin:0 auto;  
+            .team__cont{
+                width:90%;
+                margin:0 auto;
+                .team__title--secondary{
+                    font-size: 20px;
+                } 
+                .team__text--secondary{
+                    font-size: 15px; 
+                }
+            }
+        }
+
+        .team__founder{
+            display: block;
+            margin-top:8%;
+            .team__image--founder{
+                width:60%;
+                height:55%;
+                margin:0 auto;
+            }
+            .team__text--founder{
+                width:60%;
+                height:50%;
+                margin:2% auto auto auto;
+                .team__label--founder{
+                    text-align: left;
+                    font-size: 15px;
+                }
+                .team__title--founder{
+                    margin-left:0;
+                    text-align: left;
+                }
+                .team__links--founder{
+                    margin:4% 0 5% 0;
+                    padding:0;
+                    font-size: 24px;
+                    line-height: normal;
+                }
+                .team__desc{
+                    line-height: none;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    text-align: left;
+                    color: $textColor;
+                }
+            }
+        }
+    }
+}
+
+
+.courses{
+    height:180vh;
+    .container{
+        .container--inner{
+            padding:5% 2%;
+            .courses__heading{
+                height:8%;
+                margin-bottom: 0;;
+                .courses__title--primary{
+                    margin: 1.5%;
+                }
+            }
+
+            .courses__list{
+                height:82%; 
+                width:95%;
+                margin:0 auto;       
+                grid-template: auto auto auto / auto auto;
+                gap: 3% 3%;        
+            }
+            .courses__button{
+                margin: 5% auto;
+                button{
+                    padding:3% 8%;
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+}
+
+.advantages{
+    height:100vh;
+    position:static;
+    text-align: center;
+    &__text{
+        height:50%;
+        width:80%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        position:static;
+        .advantages__heading--primary{
+            height:25%;
+            margin-top:4%;
+            .advantages__label--primary{
+                font-size:16px;
+            }
+            .advantages__title--primary{
+                font-size:40px;
+            }
+        }
+        .advantages__main{
+            height:75%;
+            width:100%;
+            .advantages__heading--secondary{
+                height:60%;
+                .advantages__cont--secondary{
+                    .advantages__title--secondary{
+                        margin-left: 0%;
+                        font-size:22px;
+                    }
+                }
+                .advantages__text--secondary{
+                    font-size:14px;
+                    margin:2vh 0;
+                }    
+            }
+            .advantages__cont--list{
+                .advantages__title--list{
+                    margin-left: 0;
+                    font-size:20px;
+                }
+            }
+        }
+    }
+    &__image{
+        position:static;
+        height:42%;
+        width:100%;
+            img{
+            width:60%;
+            height:100%;
+            }
+    }
+}
+
+.review{
+    height:50vh;
+    .container{
+        .container-inner{
+            padding:5% 2%;
+            .review__heading{
+                height:20%;
+                .review__title{ 
+                    font-size: 36px;
+                }
+            }
+            .review__main{
+                height:70%;
+                .review__cont{
+                    padding:0 5%;
+                }
+                .review__cont--left{
+                    inset:auto auto auto 20px;   
+                    .review__msg{
+                        height:52%;
+                        font-size: 12px;
+                    }
+                    .review__name{
+                        font-size: 15px;
+                    }
+                    .review__post{
+                        font-size:10px;
+                    }
+                }
+                .review__cont--mid{
+                    width:70%;
+                    .review__msg{
+                        height:52%;
+                        font-size: 15px;
+                    }
+                    .review__name{
+                        font-size: 18px;
+                    }
+                    .review__post{
+                        font-size:15px;
+                    }
+                    .review__image{
+                        bottom:-38px;
+                        img{
+                            margin:0;
+                        }
+                        .review__image--left{
+                            height:45px;
+                            width:45px;
+                        }
+                        .review__image--mid{
+                            height:60px;
+                            width:60px;
+                        }
+                        .review__image--right{
+                            height:45px;
+                            width:45px;
+                        }
+                    }
+                }
+                .review__cont--right{
+                    inset:auto 20px auto auto;   
+                    .review__msg{
+                        height:52%;
+                        font-size: 12px;
+                    }
+                    .review__name{
+                        font-size: 15px;
+                    }
+                    .review__post{
+                        font-size:10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.gallery{
+    height:60vh;
+    &__main{
+        height:90%;
+        &--top{
+            .gallery__image--top{
+                height: 90%;
+                width:47%;
+            }
+        }
+        &--bot{
+            .gallery__image--bot{
+                width:22%;
+            }
+        }
+    }
+}
+
+
+.students{
+    height:70vh;
+    .container{
+        .container--inner{
+            padding-left:3%;
+            padding-right: 3%;
+            .students__heading{
+                height:20%;
+                .students__label--primary{
+                    font-size: 15px;
+                }
+                .students__title--primary{
+                    font-size: 38px;
+                }
+            }
+            .students__main{
+                height:60%;
+                .students__cont{
+                    .students__text{
+                        inset:40% 0 auto 0;
+                        padding:3% 8%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    height:40vh;
+    .container{
+        .container--inner{
+            padding:3vh 5%;
+            .footer__body{
+                .footer__company{
+                    .footer__text--info{
+                        font-size: 12px;
+                    }
+                    .footer__text--address, .footer__text--number, .footer__text--email{
+                        font-size: 12px;    
+                    }
+                }
+                .footer__cont--links{
+                    .footer__links{
+                        font-size: 16px;
+                    }
+                }
+                .footer__contact{
+                    .footer__text--contact{
+                        width:98%;
+                    }
+                    .footer__cont--input{
+                        .footer__input--email{
+                            font-size:10px;
+                            padding:0.8vh;
+                        }
+                        .footer__button--submit{
+                            padding:1vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
